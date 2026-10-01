@@ -4,7 +4,7 @@ import NavItems from "./NavItems";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar top-0 fixed">
       <Link href="/">
         <div className="flex items-center gap-2.5 cursor-pointer">
             <Image 
